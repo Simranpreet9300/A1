@@ -1,3 +1,12 @@
+/*
+ * File name: index.js
+ * Author's name: Simranpreet Kaur
+ * Website name: http://localhost:3000/
+ * Description: This is the file that contains the express routes for all my views
+ */
+
+
+
 //link to the express package
 var express = require('express');
 //instanciates a new express route to handle http requests

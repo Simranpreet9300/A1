@@ -1,3 +1,10 @@
+/*
+ * File name: users.js
+ * Author's name: Simranpreet Kaur
+ * Website name: http://localhost:3000/
+ * Description: This is the file that contains the express routes for all users
+ */
+
 var express = require('express');
 var router = express.Router();
 
