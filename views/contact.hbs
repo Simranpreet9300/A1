@@ -1,6 +1,79 @@
 <!--File name: contact.hbs
 Author's name: Simranpreet Kaur
-Website name: http://localhost:3000/
+Website name: http://localhost:3000/ and https://simranpreet-kaur-jewels-house.herokuapp.com/
  Description: This is the view for the contact page  -->
 
 <h1>Contact Jewels House</h1>
+<script>
+
+    function f1() {
+        document.getElementById("fnm").innerHTML = "No need to write Mr. and Mrs.";
+        return true;
+    }
+    function f2() {
+        document.getElementById("fnm").innerHTML = "";
+    }
+    function f3() {
+        document.getElementById("eml").innerHTML = "Please enter a valid email type.";
+        return true;
+    }
+    function f4() {
+        document.getElementById("eml").innerHTML = "";
+    }
+
+
+    function parm6() {
+        alert("Your Message is sent......");
+    }
+</script>
+
+<body>
+    <div class="container">
+        <div class="contact">
+            <font face="Century" size="5" color="darkgoldenrod" align="center">
+                &nbsp;
+                <b><u>Contact&nbsp;&nbsp;Us</u></b>
+            </font>
+        </div>
+        <form>
+            <center>
+                <table height="350px" width="500px">
+                    <tr align="center">
+                        <td>
+                            <input type="text" name="fname" size="40px"
+                                   placeholder="Enter Your Full Name*" autocomplete="off" onfocus="return f1();" onblur="return f2();"
+                                   style="height:30px;border-radius:7px 7px 7px 7px;color:darkgoldenrod;text-align:center;">
+                            <p id="fnm" style="color:white;"></p>
+                        </td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>
+                            <input type="email" name="email" size="40px"
+                                   placeholder="Enter Your Email*" autocomplete="off" onfocus="return f3();" onblur="return f4();"
+                                   style="height:30px;border-radius:7px 7px 7px 7px;text-align:center;color:darkgoldenrod;">
+                            <p id="eml" style="color:white;"></p>
+                        </td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>
+                            <textarea name="cmn" size="40px" placeholder="Your Message" style="height:60px;width:350px;
+		border-radius:5px 5px 5px 5px;text-align:center;color:darkgoldenrod;"></textarea>
+                        </td>
+                    </tr>
+
+
+
+                    <tr align="center">
+                        <td>
+                            <input type="submit" value="Send" onclick="parm6();" style="height:30px;width:150px;
+	background:darkgoldenrod;color:white;border-radius:10px 10px 10px 10px;">
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </form>
+    </div>
+</body>
+

@@ -1,7 +1,7 @@
-<!--File name: layout.hbs
+﻿<!--File name: layout.hbs
 Author's name: Simranpreet Kaur
-Website name: http://localhost:3000/
- Description: This is the file that contains the layout for all my views -->
+Website name: http://localhost:3000/ and https://simranpreet-kaur-jewels-house.herokuapp.com/
+ Description: This is the view for the main or "home" page -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +11,8 @@ Website name: http://localhost:3000/
     <!--Adding Bootstrap-->
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/stylecontact.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
     <!--NAV BAR https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp  -->
@@ -49,9 +51,11 @@ Website name: http://localhost:3000/
         </div>
     </nav>
     {{{body}}}
+
+    {{> footer}}
 </body>
 
-{{> footer}}
+
 <!--Adding Javascript Bootstrap-->
 <script scr="/javascripts/bootstrap.min.js"></script>
 

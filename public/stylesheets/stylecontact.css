@@ -1,0 +1,41 @@
+/* style.css */
+a:link
+{
+color:black; /*used for color*/
+text-decoration:none;/*to underline the text*/
+}
+a:visited
+{
+color:black;
+text-decoration:none; 
+}
+a:active
+{
+color:black; 
+}
+
+
+.container {
+	position: relative; /*used to set the position*/
+	width: 1280px;
+	margin-top: 50px;
+}
+
+
+.contact
+{
+height:50px;
+width:380px;
+background:transparent;
+margin-left:355px;
+margin-top:50px;
+text-align:center;
+}
+
+
+
+
+
+
+
+

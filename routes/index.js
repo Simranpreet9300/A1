@@ -1,7 +1,7 @@
 /*
  * File name: index.js
  * Author's name: Simranpreet Kaur
- * Website name: http://localhost:3000/
+ * Website name: http://localhost:3000/ and https://simranpreet-kaur-jewels-house.herokuapp.com/
  * Description: This is the file that contains the express routes for all my views
  */
 
