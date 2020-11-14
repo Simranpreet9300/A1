@@ -2,12 +2,12 @@
 Author's name: Simranpreet Kaur
 Website name: http://localhost:3000/
  Description: This is the file that contains the layout for all my views -->
-
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>{{title}}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Adding Bootstrap-->
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
@@ -47,11 +47,11 @@ Website name: http://localhost:3000/
                 </li>
             </ul>
         </div>
-
     </nav>
     {{{body}}}
 </body>
 
+{{> footer}}
 <!--Adding Javascript Bootstrap-->
 <script scr="/javascripts/bootstrap.min.js"></script>
 
