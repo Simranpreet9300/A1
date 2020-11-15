@@ -1,4 +1,11 @@
-/* style.css */
+/*
+File name: stylecontact.css
+Author's name: Simranpreet Kaur (200427339)
+Website name: http://localhost:3000/ and https://simranpreet-kaur-jewels-house.herokuapp.com/
+Description: This is the stylesheet for the contact page.
+*/
+
+/*style for all hyperlink on contact page*/
 a:link {
     color: black; /*used for color*/
     text-decoration: none; /*to underline the text*/
@@ -13,19 +20,19 @@ a:active {
     color: black;
 }
 
-
+/*style for div container for contact page*/
 .container {
     position: relative; /*used to set the position*/
-    width: 1280px;
-    margin-top: 50px;
+    width: 1280px; /*used to set the width*/
+    margin-top: 50px; /*used to set the top margin*/
 }
 
-
+/*style for div contact for contact page*/
 .contact {
-    height: 50px;
+    height: 50px; /*used to set the height*/
     width: 380px;
-    background: transparent;
-    margin-left: 355px;
+    background: transparent; /*used to set the background color*/
+    margin-left: 355px; /*used to set the left margin*/
     margin-top: 50px;
-    text-align: center;
+    text-align: center; /*used to set the position of text*/
 }

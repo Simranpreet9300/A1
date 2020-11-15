@@ -1,6 +1,6 @@
 /*
  * File name: users.js
- * Author's name: Simranpreet Kaur
+ * Author's name: Simranpreet Kaur (200427339)
  * Website name: http://localhost:3000/ and https://simranpreet-kaur-jewels-house.herokuapp.com/
  * Description: This is the file that contains the express routes for all users
  */

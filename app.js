@@ -1,8 +1,8 @@
 /*
  * File name: app.js
- * Author's name: Simranpreet Kaur
+ * Author's name: Simranpreet Kaur (200427339)
  * Website name: http://localhost:3000/ and https://simranpreet-kaur-jewels-house.herokuapp.com/
- * Description: This is the file that contains all functions of jewels house
+ * Description: This is the file that contains all functions and variables of jewels house.
  */
 
 var createError = require('http-errors');
@@ -17,11 +17,10 @@ var hbs = require('hbs');
 var fs = require('fs');
 
 var app = express();
-
-
-// view engine setup  
+ 
 // Adding or registering partials.
 /*Partials example taken from http://stackoverflow.com/questions/8059914/express-js-hbs-module-register-partials-from-hbs-file */
+
 var partialsDir = __dirname + '/views/partials';
 
 var filenames = fs.readdirSync(partialsDir);
@@ -36,6 +35,7 @@ filenames.forEach(function (filename) {
     hbs.registerPartial(name, template);
 });
 
+// view engine setup 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 

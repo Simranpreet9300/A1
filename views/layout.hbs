@@ -1,21 +1,22 @@
 ﻿<!--File name: layout.hbs
-Author's name: Simranpreet Kaur
+Author's name: Simranpreet Kaur (200427339)
 Website name: http://localhost:3000/ and https://simranpreet-kaur-jewels-house.herokuapp.com/
  Description: This is the view for the main or "home" page -->
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>{{title}}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--Adding Bootstrap-->
+    <!--Adding Bootstrap and Adding CDNs links-->
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
     <link rel="stylesheet" href="/stylesheets/stylecontact.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    <!--NAV BAR https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp  -->
+    <!--Adding NAV BAR https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp  -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="/">
@@ -52,6 +53,7 @@ Website name: http://localhost:3000/ and https://simranpreet-kaur-jewels-house.h
     </nav>
     {{{body}}}
 
+    <!--Adding partial footer-->
     {{> footer}}
 </body>
 

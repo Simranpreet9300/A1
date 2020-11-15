@@ -1,17 +1,26 @@
+/*
+File name: style.css
+Author's name: Simranpreet Kaur (200427339)
+Website name: http://localhost:3000/ and https://simranpreet-kaur-jewels-house.herokuapp.com/
+Description: This is the stylesheet for the all pages.
+*/
+
+/*Body style for all pages*/
 body {
-    padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px; /*used to set the space inside any element or border*/
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; /*used for font style*/
 }
 
+/*style for all hyperlink*/
 a {
-    color: #00B7FF;
+    color: #00B7FF; /*used for color*/
 }
 
-
+/*footer style for all pages*/
 footer {
-    background-color: #777;
+    background-color: #777; /*used for background color*/
     padding: 10px;
-    text-align: center;
+    text-align: center; /*used to set the position of text*/
     color: white;
-    margin-top: 10px;
+    margin-top: 10px; /*used to set the top margin*/
 }

@@ -2,12 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\bin",
-    "\\public",
-    "\\public\\javascripts",
-    "\\public\\stylesheets",
-    "\\routes",
-    "\\views"
+    "\\public"
   ],
-  "SelectedNode": "\\public\\stylesheets\\bootstrap.min.css",
+  "SelectedNode": "\\views",
   "PreviewInSolutionExplorer": false
 }
